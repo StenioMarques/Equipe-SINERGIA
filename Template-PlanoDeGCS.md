@@ -22,29 +22,50 @@ Histórico de Versões
 1. Introdução
 ==============
 
-_[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão geral de todo o documento. 
-Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
-Plano de Gerenciamento de Configuração.]_
+Este artefato descreve as atividades relacionadas ao Gerenciamento de Controle 
+de Configuração e Mudança que serão executadas durante o ciclo de vida do produto. 
+As atividades aqui descritas envolvem a identificação da configuração do software, manter sua integridade durante o projeto e controlar sistematicamente as mudanças assim como os responsáveis pelas mesmas.
+
 
 1.1 Finalidade
 ---------------
-_[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+O objetivo deste documento é definir um padrão para que os membros da equipe possam garantir o controle do produto desenvolvido. 
+Serão detalhados alguns recursos como (equipes, ferramentas e computadores), que consideramos necessário para alcançarmos nossos objetivos.
+
 
 1.2 Escopo
 ----------
-_[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
+Este Plano de Gerenciamento de Configuração tem como objetivo iterar toda a equipe do projeto Sinergia de modo que todos os interessados tenham ciência do processo utilizado. Este documento é restrito aos membros do projeto.
+Este documento deverá acompanhar as mudanças ocorridas ao longo do projeto devendo ser atualizado constantemente e versionado.
+
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-_[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+Termo	Significado
+GC	Gerência de Configuração
+CCM	Comitê para o Controle de Mudanças.
+Baseline	Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.
+BUG	Erro no funcionamento comum de um software
+
 
 1.4 Referências
 ---------------
-_[Esta subseção apresenta uma lista completa de todos os documentos mencionados no Plano de Gerenciamento de Configuração. Identifique os documentos por título, número de relatório (se aplicável), data e organização responsável pela publicação. Especifique as fontes a partir das quais as referências podem ser obtidas. Essas informações podem ser fornecidas por um anexo ou outro documento.]_
+N/A
 
 1.5 Visão Geral
 ---------------
-_[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Configuração e explica como o documento está organizado.]_
+As próximas seções deste documento foram definidas da seguinte maneira.
+
+Seção 2.0 São definidas os papeis e responsabilidades das atividades e as ferramentas
+
+Seção 3.0 São relacionados os papéis, as responsabilidades das atividades e as ferramentas dentro da GC da Fábrica,  além  mostrar serão criadas e controladas as Baselines.
+
+Seçao 4.0 Serão abordados os detalhes sobre quando o Plano de Gerenciamento de Configuração deve ser atualizado.
+
+Seçao 5.0 Descreve ferramentas de software, o pessoal e o treinamento necessário para programar as atividades de CM especificadas.
+
+Seçao 6.0 Descreve de que forma o software desenvolvido fora do ambiente do projeto será incorporado.
+
 
 
 
