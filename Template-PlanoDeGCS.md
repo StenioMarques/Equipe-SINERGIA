@@ -15,7 +15,7 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 | 02/12/2013 | 1.2 | Segunda Versão | Stanislaw Cruz |
-| &lt;dd/mm/aaaa&gt; | &lt;1.1&gt; | &lt;Outra versão&gt; | &lt;autor&gt; |
+| 03/12/2013 | 1.3 |Terceira Versão | Fco. Chagas M  | &lt;autor&gt; |
 
 
 
@@ -41,11 +41,14 @@ Este documento deverá acompanhar as mudanças ocorridas ao longo do projeto dev
 
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
-Termo	Significado
-GC	Gerência de Configuração
+
+GC	Gerência de Configuração.
+
 CCM	Comitê para o Controle de Mudanças.
-Baseline	Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.
-BUG	Erro no funcionamento comum de um software
+
+BUG	Erro no funcionamento comum de um software.
+
+Baseline  Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.
 
 
 1.4 Referências
@@ -74,18 +77,29 @@ Seçao 6.0 Descreve de que forma o software desenvolvido fora do ambiente do pro
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-_[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
+Gerente de Configuração:Francisco das Chagas	
+Reponsabilidades:Definir Plano de GC Aplicar Políticas de GC Criar e Adaptar o Ambiente de GC, Criar Baselines, Promover Baselines
+
+CCM: Stanislaw Cruz, Euclides Brasil, Francisco das Chagas, 
+Reponsabilidades: Elaborar Processo de Controle de Mudanças
+Revisar Solicitação de Mudança.
+
+Desenvolvedores: Stanislaw e Euclides Brasil	
+Reposabilidades:Seguir os padrões, procedimentos e Ferramentas definidos no Plano de Gerência de Configuração.
+
+Todos os Papéis:Euclides Brasil, Stanislaw Cruz, Fco.das Chagas	Reposabilidades:Enviar Solicitação de Mudança, Atualizar Solicitação de Mudança.
+
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-_[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
-_Descreva as ferramentas e os procedimentos necessários utilizados para o controle de versão dos itens de configuração gerados no ciclo de vida do projeto ou produto._
-_As questões envolvidas na configuração do ambiente de CM incluem:_
-* _tamanho previsto dos dados do produto_
-* _distribuição da equipe do produto_
-* _localização física dos servidores e clientes]_
- 
+Git Hub	Controle de Versão.	Sistema de controle de versão.	1.8.4
 
+Jira Controle de Mudanças versão 6.0
+
+Jenkis Integração contínua
+
+IBM Quality Center	Testes e Controle de Qualidade	Ferramenta usada para Elaboração dos Casos de Testes	2008
+ 
 
 3. O Programa de Gerenciamento de Configuração
 ==============================================
