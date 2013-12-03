@@ -14,8 +14,8 @@ Histórico de Versões
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_02/12/2013_|_1.2_|_Segunda Versão_|_Stanislaw Cruz_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+| 02/12/2013 | 1.2 | Segunda Versão | Stanislaw Cruz |
+| &lt;dd/mm/aaaa&gt; | &lt;1.1&gt; | &lt;Outra versão&gt; | &lt;autor&gt; |
 
 
 
