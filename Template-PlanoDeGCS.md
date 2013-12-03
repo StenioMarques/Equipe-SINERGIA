@@ -2,7 +2,7 @@
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.2&gt;
+Versão 1.2
 ------------------
 
 _[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
