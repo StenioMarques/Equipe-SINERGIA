@@ -48,6 +48,7 @@ Este documento deverá acompanhar as mudanças ocorridas ao longo do projeto dev
 |GC|Gerência de Configuração|
 |CCM|Comitê para o Controle de Mudanças|
 |BUG|Erro no funcionamento comum de um software|
+|SM|Solicitação de Mudança|
 
 
 1.4 Referências
