@@ -42,13 +42,12 @@ Este documento deverá acompanhar as mudanças ocorridas ao longo do projeto dev
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 
-GC	Gerência de Configuração.
 
-CCM	Comitê para o Controle de Mudanças.
-
-BUG	Erro no funcionamento comum de um software.
-
-Baseline  Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade.
+|Termo                |Significado |
+|--------------------|-------------|------------------------|---------------|
+|GC|Gerência de Configuração|
+|CCM|Comitê para o Controle de Mudanças|
+|BUG|Erro no funcionamento comum de um software|
 
 
 1.4 Referências
@@ -69,37 +68,41 @@ Seçao 5.0 Descreve ferramentas de software, o pessoal e o treinamento necessár
 
 Seçao 6.0 Descreve de que forma o software desenvolvido fora do ambiente do projeto será incorporado.
 
-
-
-
 2. Gerenciamento de Configuração de Software
 ============================================
 
 2.1 Organização, Responsabilidades e Interfaces
 ------------------------------------------------
-Gerente de Configuração:Francisco das Chagas	
-Reponsabilidades:Definir Plano de GC Aplicar Políticas de GC Criar e Adaptar o Ambiente de GC, Criar Baselines, Promover Baselines
 
-CCM: Stanislaw Cruz, Euclides Brasil, Francisco das Chagas, 
-Reponsabilidades: Elaborar Processo de Controle de Mudanças
-Revisar Solicitação de Mudança.
-
-Desenvolvedores: Stanislaw e Euclides Brasil	
-Reposabilidades:Seguir os padrões, procedimentos e Ferramentas definidos no Plano de Gerência de Configuração.
-
-Todos os Papéis:Euclides Brasil, Stanislaw Cruz, Fco.das Chagas	Reposabilidades:Enviar Solicitação de Mudança, Atualizar Solicitação de Mudança.
-
+|Papeis                |Equipe       |Responsabilidade |
+|--------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+|Gerente de Configuração|Francisco das Chagas|Definir Plano de GC aplicar Políticas de GC, criar e adaptar o ambiente de GC, criar Baselines promover baselines
+CCM|Stanislaw Cruz Euclides Brasil Francisco das Chagas|Elaborar Processo de Controle de Mudanças Revisar Solicitação de Mudança|
+Desenvolvedor|Stanislaw Euclides Brasil|Seguir os padrões, procedimentos e Ferramentas definidos no Plano de Gerência de Configuração.|
+|Todos os Papéis|Euclides Brasil Stanislaw Cruz Francisco das Chagas|Enviar Solicitação de Mudança e Atualizar Solicitação de Mudança|
 
 2.2 Ferramentas, Ambiente e Infra-estrutura
--------------------------------------------
-Git Hub	Controle de Versão.	Sistema de controle de versão.	1.8.4
+----------------------------------------------------------------
+2.2.1 	As ferramentas a serem utilizadas para a gerência de configuração
 
-Jira Controle de Mudanças versão 6.0
+|Ferrmanta                |Descrição | versão 
+|--------------------|-------------|----------------------------
+|Git Hub	Controle de Versão|Sistema de controle de versão|1.8.4
+|Jira |Controle de Mudanças |6.0|
+|Jenkis| Integração contínua|   |
+|IBM Quality Center	|Testes e Controle de Qualidade	Ferramenta usada para Elaboração dos Casos de Testes|2008
 
-Jenkis Integração contínua
+2.2.2	Configuração do software – Ferramentas do ambiente de desenvolvimento
 
-IBM Quality Center	Testes e Controle de Qualidade	Ferramenta usada para Elaboração dos Casos de Testes	2008
- 
+|Tipo                |Ferramenta | versão 
+|--------------------|-------------|----------------------------
+|Sistema Operacional (Desenvolvimento)|Windows 7 Professional|1.8.4
+|Cronograma |Microsoft Word |2012|
+|Controle de Versão |GitHub|1.8.4|
+|Banco de Dados |SQL Server 2008 |10.0.160|
+|Plataforma de Desenvolvimento|Eclipse|SR2|
+|Navegador|Chrome|31.0.1650
+
 
 3. O Programa de Gerenciamento de Configuração
 ==============================================
