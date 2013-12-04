@@ -103,6 +103,13 @@ Desenvolvedor|Stanislaw Euclides Brasil|Seguir os padrões, procedimentos e Ferr
 |Plataforma de Desenvolvimento|Eclipse|SR2|
 |Navegador|Chrome|31.0.1650
 
+2.2.3	Configuração das maquinas dos ambientes
+
+|Quantidade|Ambiente   |Configuração | Software    | 
+-----------|-----------|-------------|----------------------------
+|2|Desenvolvedor|Processador: 2.3 GHz Memória RAM: 4GB Hard Disk:500 GB|Windows 7 Eclipse Microsoft Office 2012 SQL Server 2008 10.0.160
+|1|Integração|Processador: 2.3 GHz Memória RAM: 4GB Hard Disk: 500 GB|Windows 7 Eclipse Microsoft Office 2012 SQL Server 2008 10.0.160
+|1|Banco de Dados|Processador: 2.3 GHz Memória RAM: 4 RAM Hard Disk: 500 GB|Windows7
 
 3. O Programa de Gerenciamento de Configuração
 ==============================================
