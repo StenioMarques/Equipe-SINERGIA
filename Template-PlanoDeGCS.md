@@ -2,7 +2,7 @@
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão 1.2
+Versão 1.4
 ------------------
 
 _[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
@@ -15,7 +15,8 @@ Histórico de Versões
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
 | 02/12/2013 | 1.2 | Segunda Versão | Stanislaw Cruz |
-| 03/12/2013 | 1.3 |Terceira Versão | Fco. Chagas M  | &lt;autor&gt; |
+| 03/12/2013 | 1.3 |Terceira Versão | Fco. Chagas M  |
+| 07/12/2013 | 1.4 |Quarta Versão | Stanislaw Cruz  |
 
 
 
@@ -128,17 +129,27 @@ _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou 
 
 | Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|Hardware    |Stanislaw Cruz    |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|Software    |Euclides Brasil   |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|Documentação    |Stenio Marques   |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
 
 
 ### 3.1.3 Baselines do Projeto
 
-_[As baselines funcionam como um padrão oficial no qual os trabalhos subseqüentes são baseados. Somente mudanças autorizadas podem ser efetuadas nas baselines._
-_Descreva em que pontos do ciclo de vida do projeto ou produto as baselines devem ser estabelecidas. As baselines mais comuns devem ser definidas ao final de cada uma das fases de Iniciação, Elaboração, Construção e Transição. Elas também podem ser geradas no final de iterações ocorridas dentro das várias fases ou com freqüência ainda maior._
-_Descreva quem autoriza uma baseline e o que ela contém.]_
+As baselines do projeto serão classificadas da seguinte forma:
+
+Requisitos (casos de uso, documentação, design do projeto e validação).
+
+Código Fonte, modelo de dados, especificação de testes e diagramas UML.
+
 
 ### 3.1.4 Estrutura do Repositório de Versões
-_[Descreva a organização de diretórios do seu repositório e que itens/arquivos devem ser armazenados em cada diretório.]_
+O repositório é composto de diretórios aos quais são identificados pelo nome do projeto, esse por sua vez possui sub-diretórios que seguem a seguinte nomenclatura:
+
+* Apresentação
+* Domínio
+* Infraestrutura
+* Serviço
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
@@ -147,7 +158,7 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+São líderes de equipe que, através de reuniões diárias, verificam todas as solicitações e separam o que vai para o fluxo de trabalho e o que vai para o backlog.
 
 
 
