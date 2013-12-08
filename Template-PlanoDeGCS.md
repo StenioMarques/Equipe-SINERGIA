@@ -237,11 +237,6 @@ Toda os membros da equipe deverão participar dos respectivos treinamento abaixo
 |Treinamento em QC |Será efetuado um treinamento no IBM QUality Center a fim de mostrar como utilizar a ferramenta para criação de casos de testes. |Toda a equipe|
 
 
-A fim de manter a padronização d código e da forma de trabalho no versionamento, será proposto 2 treinamentos
-
-* 1 : Ferramenta controle de Versão e Atividades
-* 2 : Treinamento em Cody Analyse, Style Cop e Source Monitor.
-
 6. Auditorias de Configuração
 =============================
 Serão realizadas auditorias de configuração para cada etapa dos processos de desenvolvimento de software (Elicitação de requisitos, desenvolvimento, testes, implantação do sistema etc).
