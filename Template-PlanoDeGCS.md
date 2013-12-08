@@ -17,6 +17,7 @@ Histórico de Versões
 | 02/12/2013 | 1.2 | Segunda Versão | Stanislaw Cruz |
 | 03/12/2013 | 1.3 |Terceira Versão | Fco. Chagas M  |
 | 07/12/2013 | 1.4 |Quarta Versão | Stanislaw Cruz  |
+| 08/12/2013 | 1.5 |Quinta Versão | Euclides Brasil  |
 
 
 
@@ -209,9 +210,8 @@ São líderes de equipe que, através de reuniões diárias, verificam todas as 
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
-
-
+Toda a equipe deverá estar envolvida com o treinamento, uma vez que o uso do Git ainda gera dificuldades.
+Esse item se justifica pois a equipe já comentou sobre dificuldade (Antes era utilizado o SVN).
 
 6. Auditorias de Configuração
 =============================
