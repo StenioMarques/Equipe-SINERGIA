@@ -217,3 +217,4 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 =============================
 Serão realizadas auditorias de configuração para cada etapa dos processos de desenvolvimento de software (Elicitação de requisitos, desenvolvimento, testes, implantação do sistema etc).
 Visando melhorar o processo, reuniões periodicas devem ser feitas para identificar erros e propor melhorias. Essas observações devem ser registradas e versionadas para acompnahemnto futuro.
+
