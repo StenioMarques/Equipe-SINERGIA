@@ -210,8 +210,14 @@ São líderes de equipe que, através de reuniões diárias, verificam todas as 
 
 5. Treinamento e Recursos
 =========================
-Toda a equipe deverá estar envolvida com o treinamento, uma vez que o uso do Git ainda gera dificuldades.
-Esse item se justifica pois a equipe já comentou sobre dificuldade (Antes era utilizado o SVN).
+Toda os membros da equipe deverão participar dos respectivos treinamento abaixo, haja vista que boa parte da equipe ainda não domina ou possui habilidades com essas ferramentas e controle de versão distribuidos.Esse item se justifica pois a equipe já comentou sobre dificuldade (Antes era utilizado o SVN).
+
+|Treinamento         |Objetivo | Envolvidos 
+|--------------------|-------------|----------------------------
+|GitHub (Desenvolvimento)|Será efetuado um treinamento do uso do Github em Windows 7 visando mostrar os principais comandos executados via shell. |Toda a equipe|
+|Treinamento JIRA |Será realizado um treinamento na Ferramenta JIRA mostrando como funciona o Workflow da ferramenta.|Toda a equipe|
+|Treinamento em QC |Será efetuado um treinamento no IBM QUality Center a fim de mostrar como utilizar a ferramenta para criação de casos de testes. |Toda a equipe|
+
 
 A fim de manter a padronização d código e da forma de trabalho no versionamento, será proposto 2 treinamentos
 
