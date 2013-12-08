@@ -213,6 +213,11 @@ São líderes de equipe que, através de reuniões diárias, verificam todas as 
 Toda a equipe deverá estar envolvida com o treinamento, uma vez que o uso do Git ainda gera dificuldades.
 Esse item se justifica pois a equipe já comentou sobre dificuldade (Antes era utilizado o SVN).
 
+A fim de manter a padronização d código e da forma de trabalho no versionamento, será proposto 2 treinamentos
+
+* 1 : Ferramenta controle de Versão e Atividades
+* 2 : Treinamento em Cody Analyse, Style Cop e Source Monitor.
+
 6. Auditorias de Configuração
 =============================
 Serão realizadas auditorias de configuração para cada etapa dos processos de desenvolvimento de software (Elicitação de requisitos, desenvolvimento, testes, implantação do sistema etc).
