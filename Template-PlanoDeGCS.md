@@ -195,7 +195,15 @@ São líderes de equipe que, através de reuniões diárias, verificam todas as 
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+4.1 - Padrões de estrutura lógica
+
+* Requisitos:	Requisitos, Termo de Abertura do Projeto, Documento de Visão, Diagramas de Caso de Uso, Especificação de Caso de Uso, Realização do Caso de Uso.
+* Outros:	Atas de Reunião, Termo de Aceite do Cliente, Contagem UCP.
+* Aplicação:	Codigos Fonte do sistema, Binarios, DLLs
+* A & P:	Diagrama de Classe, Diagrama de Sequencia, Diagrama de Atividade, Diagrama de Estado.
+* Implantação:	Plano de implantação, Nota de Liberação, Lista de Materiais.
+* Modelos:	Modelo de Dados, Templates.
+* Testes:	Plano de teste, Caso de teste
 
 
 
