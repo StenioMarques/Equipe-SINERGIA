@@ -17,6 +17,7 @@ Histórico de Versões
 | 02/12/2013 | 1.2 | Segunda Versão | Stanislaw Cruz |
 | 03/12/2013 | 1.3 |Terceira Versão | Fco. Chagas M  |
 | 07/12/2013 | 1.4 |Quarta Versão | Stanislaw Cruz  |
+| 08/12/2013 | 1.5 |Quinta Versão | Euclides Brasil  |
 
 
 
@@ -120,18 +121,42 @@ Desenvolvedor|Stanislaw Euclides Brasil|Seguir os padrões, procedimentos e Ferr
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-_[Descreva como os artefatos do projeto ou produto devem ser nomeados, marcados e numerados. O esquema de identificação deve abranger o hardware, o software do sistema, os produtos de terceiros (COTS) e todos os artefatos de desenvolvimento de aplicativos listados na estrutura de diretórios do produto; por exemplo, planos, modelos, componentes, software de teste, resultados e dados, executáveis e assim por diante.]_
+Todos os artefatos versionados no projetos, devem ter uma nomenclatura intuita e incremental, a fim de facilitar alguma consulta, comparativo histórico etc.
+
+Desta forma, foi criado um padrão geral para os artefatos (Salve os códigos fontes). A nomeclatura será:
+
+[COD]-[ID]-[NOME_PROJETO]-[TEXTO_LIVRE].[EST] 
+ 
+
+Onde:
+* [COD] = Código do projeto
+* [ID] = Identificador do tipo de documento 
+* [NOME_PROJETO] = Nome do projeto, neste caso, Sinergia
+* [TEXTO_LIVRE] = Alguma descrição que forneça uma identificação escrita do arquivo (Ex: nome do caso de uso, nome da diagrama de classe etc)
+* [EST] = Extensão do arquivo
+
+Para identificador de tipo de documento temos:
+* UC	Caso de uso
+* EUC	Especificação de caso de uso
+* RNG	Regra de negócio
+* GLS	Glossário
+* BLD	Identifica que é uma Build a ser publicada
+
+
+Exemplo: S001-UC-Sinergia-ManterCliente.doc – Modelo de caso de uso de manter cliente do sistema 001 - Sinergia
+
+
 
 ### 3.1.2 Itens de Configuração
 _[Relacionar os artefatos ou grupos de artefatos, separando por tipo, modulo ou subsistema, responsável ou momento em que deverão ser incluídos em baselines._
 * _“Inclusão em Baseline” em branco significa que o grupo de artefatos não participará de baseline. Pode ser expresso como uma data ou identificador de uma baseline, fase ou ponto de controle_
 * _“Responsável”: indicar nominalmente, sempre que possível]_
 
-| Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
+| Item (ou Tipo de Item)                 | Responsável na equipe	   | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|Hardware    |Stanislaw Cruz    |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-|Software    |Euclides Brasil   |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
-|Documentação    |Stenio Marques   |_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|S001-BLD-Sinergia-Requisitos001.build|Fco. Chagas|Ao término do levantamento de Requisitos|
+|S001-BLD-Sinergia-Codigo001.build|Euclides Brasil|Ao término dos testes|
+|S001-BLD-Sinergia-Implanatacao001.build|Stanislaw da Cruz|Versão a ser publicada em produção|
 
 
 ### 3.1.3 Baselines do Projeto
@@ -144,12 +169,19 @@ Código Fonte, modelo de dados, especificação de testes e diagramas UML.
 
 
 ### 3.1.4 Estrutura do Repositório de Versões
-O repositório é composto de diretórios aos quais são identificados pelo nome do projeto, esse por sua vez possui sub-diretórios que seguem a seguinte nomenclatura:
 
-* Apresentação
-* Domínio
-* Infraestrutura
-* Serviço
+O projeto deverá ser dividido em pastas, onde em cada pasta, deverá conter as sub-pastas e arquivos referentes.
+
+De uma forma geral, os projetos deverão ter a seguinte estrutura de pastas:
+
+* Requisitos - Requisitos, Termo de Abertura do Projeto, Documento de Visão, Diagramas de Caso de Uso, Especificação de Caso de Uso, Realização do Caso de Uso.
+* Outros - Atas de Reunião, Termo de Aceite do Cliente, Contagem UCP.
+* Aplicação - Codigos Fonte do sistema, Binarios, DLLs
+* A & P - Diagrama de Classe, Diagrama de Sequencia, Diagrama de Atividade, Diagrama de Estado.
+* Implantação - Plano de implantação, Nota de Liberação, Lista de Materiais.
+* Modelos - Modelo de Dados, Templates
+* Testes - Plano de teste, Caso de teste
+* Builds -  Todas as builds de código e requisitos
 
 3.2 Controle de Configuração e Mudança
 --------------------------------------
@@ -164,15 +196,22 @@ São líderes de equipe que, através de reuniões diárias, verificam todas as 
 
 4. Padrões e Procedimentos
 ==========================
-_[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie subseções se achar necessário, para organizá-los melhor.]_
+4.1 - Padrões de estrutura lógica
+
+* Requisitos:	Requisitos, Termo de Abertura do Projeto, Documento de Visão, Diagramas de Caso de Uso, Especificação de Caso de Uso, Realização do Caso de Uso.
+* Outros:	Atas de Reunião, Termo de Aceite do Cliente, Contagem UCP.
+* Aplicação:	Codigos Fonte do sistema, Binarios, DLLs
+* A & P:	Diagrama de Classe, Diagrama de Sequencia, Diagrama de Atividade, Diagrama de Estado.
+* Implantação:	Plano de implantação, Nota de Liberação, Lista de Materiais.
+* Modelos:	Modelo de Dados, Templates.
+* Testes:	Plano de teste, Caso de teste
 
 
 
 5. Treinamento e Recursos
 =========================
-_[Descreva as ferramentas de software, o pessoal e o treinamento necessários para implementar as atividades de CM especificadas.]_
-
-
+Toda a equipe deverá estar envolvida com o treinamento, uma vez que o uso do Git ainda gera dificuldades.
+Esse item se justifica pois a equipe já comentou sobre dificuldade (Antes era utilizado o SVN).
 
 6. Auditorias de Configuração
 =============================
