@@ -207,6 +207,24 @@ São líderes de equipe que, através de reuniões diárias, verificam todas as 
 * Testes:	Plano de teste, Caso de teste
 
 
+4.2 - Padrões de codificação; 
+* DAO: Todos os DAO herdam da classe abstrata BaseDAO que tem os métodos CRUD implementados.
+
+* Serviço: Todos os serviços tem que prover um interface e ter identificado se é uma operação de contrato (Visibilidade). Os métodos dos serviços tem que ter o atributo FaultContract identificado, para ser possivel transitar erros (Erros tratados de negocio, erros customizados, erros genéricos...) em uma estrutura genérica (Padrão MVC)
+
+4.3 - Padrões de comentários.
+
+* Toda classe deve ter um cabeçalho informado sua finalidade (Documento)
+Todos os métodos devme ter seu parâmetros descritos bem como a funcionalidade em si
+Comentários de linha devem ser feitos com o comando // seguido de um espaço em branco.
+
+4.4 - Padrão de mensagens em commits
+* Todos os commits deverão ter associado mensagens. As mesnagens deverão ser ate 180 caracteres e procurar descrever o que foi a alteração e o que irá acontecer após a alteração.
+
+4.5 Criação de Branch
+* Todo desenvolvedor deverá ter sua própria branch de trabalho. Ao final dos trabalhos, devem subir as alterações para uma branch master comum. As modificações de demandas deverão ser realizadas neste branch. Novos branchs deverão ser criados para correção de Bug, a fim de não imactar no desenvolvimento da linha principal de trabalho
+
+
 
 5. Treinamento e Recursos
 =========================
